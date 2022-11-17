@@ -1,0 +1,27 @@
+body > div::before{
+    background: linear-gradient(135deg, rgb(0, 139, 139), rgb(6, 253, 253));
+    right: -30px;
+    bottom: -80px;
+}
+
+
+.have-acc{
+    display: flex;
+    flex: 400px 100px;
+    margin: 30px 20px;
+}
+.back-to{
+    margin: 0 20px;
+    color: rgb(255, 115, 0);
+    font-weight: bold;
+}
+.back{
+    margin: 20px ;
+    padding: 5px 50px;
+    border: 0ch;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.6);
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}

@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    
+}
+button{
+    box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.5);
+}
+.header{
+    display: flex;
+    flex: 300px 900px;
+    justify-content: space-around;
+    margin: 20px 0px;
+    align-items: center;
+    
+}
+.main-heading{
+    font-size: 50px;
+    color: darkcyan;
+    
+}
+small{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+   
+}
+.btns{
+    display: flex;
+    flex: 300px 500px;
+    justify-content: space-around;
+   
+}
+.sign-in, .build-resume{
+    padding: 6px 12px;
+    background: white;
+    color: darkcyan;
+    border-width: 2px;
+    border-style: solid;
+    border-color: darkcyan;
+    border-radius: 0.5rem;
+    margin: 0px 10px;
+    font-size: 13px;
+    
+    transition: 0.5s;
+}
+.sign-in:hover, .build-resume:hover{
+    background: darkcyan;
+    color: black;
+    cursor: pointer;
+    padding: 5px 24px;
+    font-weight: bold;
+}
+.overviwe{
+    display: grid;
+    grid-template-columns: 1fr 0.900fr;
+    justify-content: space-around;
+}
+.left-overviwe{
+    max-width: 750px;
+    margin-left: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.heading{
+    /* background: lightpink; */
+    word-spacing: 10px;
+    letter-spacing: 5.5px;
+    font-size: 30px;
+    margin-top: 40px;
+    line-height: 42px;
+}
+.sub{
+    font-size: 20px;
+    word-spacing: 20px;
+    letter-spacing: 25px;
+    margin-left: 5px;
+    text-shadow: rgb(0, 0, 0) 1px 5px 10px;
+}
+/* .point-list li::before {
+    color: rgb(0, 139, 139);
+    content:'\f00c';
+    font-family: fontawesome;
+    padding-right: 1rem;
+} */
+.point{
+    color: black;
+    font-size: 20px;
+    margin: 40px;
+    line-height: 40px;
+    max-width: 600px;
+}
+.start-my-resume{
+    padding: 20px 35px;
+    border: 0ch;
+    border-radius: 2.5rem;
+    background: rgb(0, 139, 139);
+    color: white;
+    font-weight: bold;
+   
+}
+.start-my-resume:hover{
+    cursor: pointer;
+}
+
+.image{
+   cursor: pointer;
+   width: 600px;
+   height: 600px;
+   object-fit: fill;
+   
+}
+.archive{
+    font-size: 40px;
+    padding: 80px 30px; 
+    color: black;
+    background-image:linear-gradient(rgba(0, 139, 139, 0.99), rgba(0, 139, 139, 0.95)), url(/images/twice-2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-transform: uppercase;
+    text-align: center;
+    word-spacing: 20px;
+    letter-spacing: 7px;
+    line-height: 50px;
+
+}
+div > .three-steps{
+    
+    margin: 40px;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(/images/picture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h3{
+    font-size: 40px;
+    margin-bottom: 30px;
+    word-spacing: 15px;
+}
+div > .one2three{
+    display: flex;
+    flex: 1 1 1;
+    text-align: center;
+    
+}
+div > button{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 50px 50px;
+    border-radius: 50%;
+    border: 0ch;
+    box-shadow: 0px 1px 5px rgba(255, 255, 255, 0.9);
+}
+.btn-info{
+    font-size: 30px;
+}
+div > p{
+    padding: 20px;
+    line-height: 25px;
+}
+.btn-status{
+    /* color: rgb(0, 0, 0); */
+    font-size: 30px;
+    /* font-weight: bold; */
+    line-height: 40px;
+}

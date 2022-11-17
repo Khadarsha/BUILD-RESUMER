@@ -1,0 +1,14 @@
+p{
+    margin: 20px 0;
+    font-size: 10px;
+}
+.back{
+    margin: 20px ;
+    padding: 5px 50px;
+    border: 0ch;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.6);
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}

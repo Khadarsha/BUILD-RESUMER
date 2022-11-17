@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+button{
+    cursor: pointer;
+    box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.5);
+}
+
+div > .header{
+    display: flex;
+    flex: 300px 300px;
+    justify-content: space-around;
+    margin: 20px 0px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.home{
+    margin: 30px;
+}
+.main-heading{
+    font-size: 50px;
+    color: darkcyan;
+}
+small{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.sign-in{
+    padding: 12px 30px;
+    background: black;
+    color: white;
+    border: 0ch;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}
+h2{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+.span{
+    color: rgb(0, 139, 139);
+}
+.btns{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: space-around;
+    padding: 50px;
+
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+.first-p{
+    margin-top: 20px;
+}
+
+.one{
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    border: 0ch;
+    box-shadow: 0px 1px 25px rgba(0, 0, 0, 0.35);
+    background: white;
+    text-transform: uppercase;
+}
+.build-my-resume{
+    margin: 30px 640px;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: rgb(0, 139, 139);
+    border: 0ch;
+    border-radius: 30px;
+}
